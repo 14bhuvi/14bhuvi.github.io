@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Chikku's Songs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="hearts-container"></div>
+
+<header>
+  <h1>💗 Chikku's Songs 💗</h1>
+  <p class="note">These songs are covers performed by My Chikku. Streaming only — no downloads.</p>
+
+  <!-- Search bar -->
+  <input type="text" id="searchBar" placeholder="🔎 Search for a song...">
+
+  <!-- Dark/Light mode toggle -->
+  <button id="themeToggle">🌙 Dark Mode</button>
+</header>
+
+<!-- Loading animation -->
+<div id="loading">
+  <div class="spinner"></div>
+  <p>Loading songs...</p>
+</div>
+
+<main>
+  <section id="songList" class="song-list"></section>
+</main>
+
+<footer>
+  <p>© Chikku's Songs — Personal Music Library</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
